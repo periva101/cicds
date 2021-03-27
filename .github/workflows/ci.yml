@@ -20,3 +20,7 @@ jobs:
 
       - name: Build Proejct
         run: ./gradlew assemble
+
+      - name:
+        uses: yutailang0119/action-android-lint@v1.1.0
+
