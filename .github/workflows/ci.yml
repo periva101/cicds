@@ -1,6 +1,9 @@
 name: Android build
 
-on: push
+on: pushgit update-index --chmod=+x gradlew
+  git add .
+  git commit -m "Changing permission of gradlew"
+  git push
 
 jobs:
   build:
